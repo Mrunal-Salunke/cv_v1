@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <ul>
+      <li>
+        Address:23 Washington Street, NJ, Hoboken.
+      </li>
+      <li>
+        Mobile No.<a href="tel:+91-475109857029481">+91-475109857029481</a>
+        </li>
+      <li>
+        Email ID<!--<a href="mailto:mrunalsalunke18@gmail.com">-->:mrunalsalunke18@gmail.com</a>
+        </li>
+      </ul>
+      <h3>Contact me : Kindly fill the below information and click on Submit button to send the details</h3>
+      <form action="mailto:mrunalsalunke18@gmail.com" enctype="text/plain" method="post">
+        <label>Your Name:</label>
+        <input type="text" name="username"></input>
+        <br />
+        <label>Your Email:</label>
+        <input type="email" name="useremailid" />
+        <br />
+        <label>Your Contact No. [Format:99-12-23-23-34]:</label>
+        <input type="tel" name="mobilenumber" placeholder="99-12-23-23-12" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" />
+        <br />
+        <label>Ask me anything:</label>
+        <br />
+        <textarea rows="3" cols="30" name="message"></textarea>
+        <br />
+        <label>Preferred method of communication:</label>
+        <input type="radio" name"Mail" />
+        <label>Mail</label>
+        <input type="radio" name="Mobile Phone" />
+        <label>Mobile Phone</label>
+        <br />
+        <label>Do you want to be added in Mail List?</label>
+        <input type="checkbox" />
+        <br /><input type="submit" value="SUBMIT" />
+        <input type="reset" value="RESET" />
+      </form>
+  </body>
+</html>
